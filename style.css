@@ -1,0 +1,22 @@
+html, body {
+    margin: 0px;
+
+    background: #F09819; /* fallback for old browsers */
+    background: -webkit-radial-gradient(#0c1416, #15171a); /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(#181b1b, #0f1114); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+canvas {
+    display: block;
+}
+.title {
+    color: rgb(8, 233, 109);
+    position: absolute;
+    margin: 0 auto;
+    top: 8px;
+    left: 12px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+}
